@@ -1,0 +1,167 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CSS Styling for index.html */
+body {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    background: linear-gradient(rgb(60,60,60),rgb(240,240,240));
+}
+
+main {
+    background: rgb(206,236,254);
+    border-radius: 40px;
+    border: 2px solid white;
+}
+
+h1 {
+    font-size: 5.2em;
+    margin: 50px 0 30px 0;
+    color: rgb(196,158,40);
+}
+
+.header-p {
+    font-size: 2.1em;
+    padding: 20px;
+    margin-bottom: 30px;
+    color: rgb(196,158,40);
+}
+
+nav {
+    font-size: 1.4em;
+    margin-bottom: 40px;
+}
+
+nav li {
+    padding: 8px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(196,158,40);
+}
+
+nav a:hover {
+    color: white;
+}
+
+article {
+    padding: 40px;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+img {
+    border-radius: 10px;
+    border: 1px solid silver;
+}
+
+.guitar {
+    width: 60%;
+}
+
+.acoustic {
+    width: 50%;
+}
+
+.info {
+    font-size: 1.2em;
+    padding: 40px;
+    line-height: 1.4;
+    margin: 0 80px;
+}
+
+hr {
+    margin-bottom: 40px;
+}
+
+h3 {
+    font-size: 2em;
+    margin-bottom: 40px;
+    color: rgb(196,158,40);
+}
+
+.coming-soon {
+    font-size: 1.4em;
+}
+
+footer {
+    width: 65%;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 35px;
+    background: rgb(60,60,60);
+}
+
+#footer {
+    font-size: 1.3em;
+    margin-bottom: 40px;
+    color: white;
+    padding: 20px 120px;
+    line-height: 1.4;
+}
+
+#footer a {
+    text-decoration: none;
+    font-style: italic;
+    color: white;
+}
+
+#footer a:hover {
+    color: rgb(196,158,40);
+}
+
+#stamp {
+    font-size: 1.1em;
+    color: rgb(196,158,40);
+}
